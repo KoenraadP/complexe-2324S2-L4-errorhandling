@@ -10,6 +10,20 @@ namespace ErrorHandling_L4
     {
         static void Main(string[] args)
         {
+            // welke code wil je 'proberen' uit te voeren
+            try
+            {
+                string[] months = new string[12];
+                months[12] = "December";
+            }
+            // wat moet er gebeuren als het niet lukt om de code
+            // in het try blokje uit te voeren
+            catch
+            {
+                Console.WriteLine("Whoops");
+            }
+
+            
         }
     }
 }
